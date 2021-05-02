@@ -2,13 +2,14 @@ import React from "react";
 import "./App.css";
 import Header from "./Header";
 import TinderCards from "./TinderCards.js";
+import SwipeButtons from "./SwipeButtons.js";
 
 function App() {
   return (
     <div className="app">
       <Header />
       <TinderCards />
-      {/* 3) SwipeButtons */}
+      <SwipeButtons />
     </div>
   );
 }
