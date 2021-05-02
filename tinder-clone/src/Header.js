@@ -10,7 +10,7 @@ function Header() {
   return (
     <div className="header">
       <IconButton>
-        <PersonIcon fontSize="large" className="header_icon" />
+        <PersonIcon fontSize="large" className="header__icon" />
       </IconButton>
 
       <img
@@ -19,7 +19,7 @@ function Header() {
         alt="tinder logo"
       />
       <IconButton>
-        <ForumIcon />
+        <ForumIcon fontSize="large" className="header__icon" />
       </IconButton>
     </div>
   );

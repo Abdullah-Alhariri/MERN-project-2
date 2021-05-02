@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 import Header from "./Header";
+import TinderCards from "./TinderCards.js";
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <h1>I'm the content of App.js</h1>
-      {/* 2) TinderCards */}
+      <TinderCards />
       {/* 3) SwipeButtons */}
     </div>
   );
